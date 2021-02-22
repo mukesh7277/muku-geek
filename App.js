@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Line } from "react-chartjs-2";
 import axios from "axios";
-import { PieChart ,Pie, Tooltip} from "recharts";
 
 const App = () => {
   const [chartData, setChartData] = useState({});
