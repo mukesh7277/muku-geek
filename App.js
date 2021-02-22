@@ -11,7 +11,7 @@ const App = () => {
     let empSal = [];
     let empAge = [];
     axios
-      .get("http://dummy.restapiexample.com/api/v1/employees")
+      .get("https://dummy.restapiexample.com/api/v1/employees")
       .then(res => {
         console.log(res);
         for (const dataObj of res.data.data) {
